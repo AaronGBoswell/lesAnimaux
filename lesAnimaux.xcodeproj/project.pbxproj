@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94A9AF4F1D529EC000F2E134 /* TumblrURLGrabber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9AF4E1D529EC000F2E134 /* TumblrURLGrabber.swift */; };
 		BDC5D5941D441AA500D6FB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5D5931D441AA500D6FB0E /* AppDelegate.swift */; };
 		BDC5D5961D441AA500D6FB0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5D5951D441AA500D6FB0E /* ViewController.swift */; };
 		BDC5D5991D441AA500D6FB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC5D5971D441AA500D6FB0E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94A9AF4E1D529EC000F2E134 /* TumblrURLGrabber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrURLGrabber.swift; sourceTree = "<group>"; };
 		BDC5D5901D441AA500D6FB0E /* lesAnimaux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesAnimaux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC5D5931D441AA500D6FB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC5D5951D441AA500D6FB0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				BDC5D5931D441AA500D6FB0E /* AppDelegate.swift */,
 				BDC5D5951D441AA500D6FB0E /* ViewController.swift */,
 				BDC5D5A51D44367F00D6FB0E /* ImageQueue.swift */,
+				94A9AF4E1D529EC000F2E134 /* TumblrURLGrabber.swift */,
 				BDC5D5971D441AA500D6FB0E /* Main.storyboard */,
 				BDC5D59A1D441AA500D6FB0E /* Assets.xcassets */,
 				BDC5D59C1D441AA500D6FB0E /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				BDC5D5961D441AA500D6FB0E /* ViewController.swift in Sources */,
 				BDC5D5A61D44367F00D6FB0E /* ImageQueue.swift in Sources */,
 				BDC5D5941D441AA500D6FB0E /* AppDelegate.swift in Sources */,
+				94A9AF4F1D529EC000F2E134 /* TumblrURLGrabber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

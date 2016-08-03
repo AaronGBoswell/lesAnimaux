@@ -34,10 +34,11 @@ class ImageQueue{
     private let defaults = UserDefaults.standard
 
     func downloadAndAdd(urlString:String){
-        DispatchQueue.global(attributes: .qosBackground).async {
+        DispatchQueue.global(qos: .background).async {
             let url = URL(string: urlString)!
             //let url = URL(fileURLWithPath: urlString)
-                let task = URLSession.shared.dataTask(with: url, completionHandler: { (data:Data?, response:URLResponse?, error: NSError?) in
+
+                let task = URLSession.shared.dataTask(with: url, completionHandler: { (data:Data?, response:URLResponse?, error: Error?) in
                     if (error != nil){
                         print(error)
                     }
@@ -64,7 +65,7 @@ class ImageQueue{
                     }
                 })
                 task.resume()
-
+            
         }
     }
     func nextInQueue(sender:ImageQueueObserver? = nil) -> String?{

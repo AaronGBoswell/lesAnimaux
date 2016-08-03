@@ -14,10 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    var c = UIColor.blue()
+    var c = UIColor.blue
     override func viewDidLoad() {
         super.viewDidLoad()
-        contentView.backgroundColor = UIColor.black()
+        contentView.backgroundColor = UIColor.black
         if let filePath = ImageQueue.sharedQueue.nextInQueue(sender: self){
             setupImageViewWithPath(fileURL: filePath)
 
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBAction func touchUpInside(_ sender: AnyObject) {
-        if activityIndicator.isAnimating(){
+        if activityIndicator.isAnimating{
             return
         }
         swipeToNextView()
