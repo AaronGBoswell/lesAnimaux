@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        TumblrURLGrabber.sharedGrabber.imageQueue = ImageQueue.sharedQueue
+        ImageQueue.sharedQueue.source = TumblrURLGrabber.sharedGrabber
+        TumblrURLGrabber.sharedGrabber.getPictures()
+        print("Started app")
         // Override point for customization after application launch.
         return true
     }

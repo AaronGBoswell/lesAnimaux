@@ -12,6 +12,7 @@
 		BDC5D5991D441AA500D6FB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC5D5971D441AA500D6FB0E /* Main.storyboard */; };
 		BDC5D59B1D441AA500D6FB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC5D59A1D441AA500D6FB0E /* Assets.xcassets */; };
 		BDC5D59E1D441AA500D6FB0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC5D59C1D441AA500D6FB0E /* LaunchScreen.storyboard */; };
+		BDC5D5A61D44367F00D6FB0E /* ImageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5D5A51D44367F00D6FB0E /* ImageQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BDC5D59A1D441AA500D6FB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC5D59D1D441AA500D6FB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDC5D59F1D441AA500D6FB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC5D5A51D44367F00D6FB0E /* ImageQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BDC5D5931D441AA500D6FB0E /* AppDelegate.swift */,
 				BDC5D5951D441AA500D6FB0E /* ViewController.swift */,
+				BDC5D5A51D44367F00D6FB0E /* ImageQueue.swift */,
 				BDC5D5971D441AA500D6FB0E /* Main.storyboard */,
 				BDC5D59A1D441AA500D6FB0E /* Assets.xcassets */,
 				BDC5D59C1D441AA500D6FB0E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC5D5961D441AA500D6FB0E /* ViewController.swift in Sources */,
+				BDC5D5A61D44367F00D6FB0E /* ImageQueue.swift in Sources */,
 				BDC5D5941D441AA500D6FB0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				BDC5D5A41D441AA500D6FB0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
